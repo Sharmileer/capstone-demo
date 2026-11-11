@@ -1,0 +1,154 @@
+/* 
+    Document   : style
+    Created on : 22-May-2012, 10:02:20 AM
+    Author     : C. Henry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html {
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+body {
+    background-image: url(../Images/bg.png); 
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family:verdana,sans-serif;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+#dbody {
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+
+#spacer {
+    height: 40px;
+}
+
+#spacer_short {
+    height: 20px;
+}
+
+#spacer_veryshort {
+    height: 10px;
+}
+
+#menu {
+    height:40px;    
+    overflow: hidden;
+    margin: 5px 0px 10px 0px;
+    background: #625E5B;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#nav {
+    margin: 0 auto;     
+    display: inline;
+}
+
+#nav a {
+    float:left;
+    background: url(../Images/RightButton.png) right center no-repeat;
+    padding:16px 16px 16px 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background: url(../Images/hover.png) left top repeat-x;
+}
+
+#nav li {
+    cursor: pointer;    
+    height: 44px;
+    display: inline;
+}
+
+
+#content p {
+    font-size: 14px;
+}
+
+#me {
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+
+#logo{
+    background-image: url(../images/bg.png);
+    width: 970px;
+}
+
+#nice_space {
+    line-height: 21px;
+}
+
+#research {
+    font-size: 20px;
+    line-height: 25px;    
+    padding-top: 20px
+}
+
+#pubs {
+    font-size: 14px;
+}
+
+#pubs a {
+    text-decoration: none;
+    color: black;
+}
+
+#iTClass {
+    float: right;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.HighRes {
+    margin: auto;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#ospace {
+    margin-top: 60px;
+}
+
+#oContent {
+    margin-left: 40px;
+    font-size: large;
+}
+
+#zMargin {
+    margin: 0px
+}
+
+#twospace{
+    height: 200px
+}
+
+#sep {
+    margin-top: 23px;
+}
